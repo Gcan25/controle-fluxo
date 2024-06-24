@@ -8,7 +8,8 @@ public class Contador {
     System.out.println("Digite o primeiro parâmetro:  ");
     int parametroUm = terminal.nextInt();
     System.out.println("DIgite o segundo parâmetro: ");
-    int parametroDois = terminal.nextInt();
+    int parametroDois = terminal.nextInt(); 
+    
         
         if (parametroDois <= parametroUm) {
             throw new ParametrosInvalidosException("O segundo parâmetro deve ser maior que o primeiro");
